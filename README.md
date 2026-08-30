@@ -30,7 +30,7 @@ Ví dụ:
 
 ```text
 homeassistant
-homeassistant-me-loan
+homeassistant-test
 ```
 
 ---
@@ -51,6 +51,7 @@ Bật:
 MagicDNS
 HTTPS Certificates
 ```
+![Uploading image.png…]()
 
 Sau đó máy Home Assistant sẽ có tên miền dạng:
 
