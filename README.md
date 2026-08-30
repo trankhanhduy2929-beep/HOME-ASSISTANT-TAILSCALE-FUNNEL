@@ -288,6 +288,7 @@ Truy cập:
 ```text
 https://homeassistant-test.xxxxx.ts.net
 ```
+<img width="960" height="567" alt="image" src="https://github.com/user-attachments/assets/ef5f2053-9271-4215-883b-8cf26be72579" />
 
 Nếu xuất hiện trang đăng nhập Home Assistant là thành công.
 
