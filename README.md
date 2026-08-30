@@ -57,13 +57,13 @@ HTTPS Certificates
 Sau đó máy Home Assistant sẽ có tên miền dạng:
 
 ```text
-homeassistant-me-loan.xxxxx.ts.net
+homeassistant-test.xxxxx.ts.net
 ```
 
 Ví dụ:
 
 ```text
-homeassistant-me-loan.tailfa12e.ts.net
+homeassistant-test.xxxxx.ts.net
 ```
 
 Tailscale sẽ tự cấp chứng chỉ HTTPS.
@@ -80,6 +80,7 @@ Vào:
 Tailscale Admin Console
 → Access controls
 ```
+<img width="960" height="559" alt="image" src="https://github.com/user-attachments/assets/63d1be37-9af7-4522-b176-6c99a8cb9703" />
 
 Trong ACL phải có:
 
@@ -112,6 +113,7 @@ Ví dụ ACL cơ bản:
   ]
 }
 ```
+<img width="955" height="490" alt="image" src="https://github.com/user-attachments/assets/686daa19-23b2-4c11-8004-1f1d6e78cd0c" />
 
 Save lại.
 
@@ -147,6 +149,7 @@ thêm:
 ```text
 127.0.0.1
 ```
+<img width="960" height="513" alt="image" src="https://github.com/user-attachments/assets/3dfe411f-7a3d-495f-8c4a-08eb56c5b0d2" />
 
 Nếu trước đó đã dùng Nginx Proxy Manager hoặc reverse proxy khác thì giữ nguyên các Trusted Proxy cũ và chỉ thêm:
 
@@ -216,6 +219,7 @@ taildrive:
 taildrop: false
 userspace_networking: false
 ```
+<img width="960" height="510" alt="image" src="https://github.com/user-attachments/assets/0509d958-574b-4244-a867-a496686dba7e" />
 
 Save.
 
@@ -242,13 +246,13 @@ Full domain
 Ví dụ:
 
 ```text
-homeassistant-me-loan.tailfa12e.ts.net
+homeassistant-test.xxxxxx.ts.net
 ```
 
 URL truy cập sẽ là:
 
 ```text
-https://homeassistant-me-loan.tailfa12e.ts.net
+https://homeassistant-test.xxxxx.ts.net
 ```
 
 Không cần thêm:
@@ -282,7 +286,7 @@ Mở trình duyệt
 Truy cập:
 
 ```text
-https://homeassistant-me-loan.xxxxx.ts.net
+https://homeassistant-test.xxxxx.ts.net
 ```
 
 Nếu xuất hiện trang đăng nhập Home Assistant là thành công.
