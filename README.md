@@ -51,7 +51,8 @@ Bật:
 MagicDNS
 HTTPS Certificates
 ```
-![Uploading image.png…]()
+<img width="791" height="546" alt="image" src="https://github.com/user-attachments/assets/fdcfc6bb-2203-486e-9575-13adb294df71" />
+
 
 Sau đó máy Home Assistant sẽ có tên miền dạng:
 
